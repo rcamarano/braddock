@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: rgb(255, 255, 255, 0.9);
+  width: 100%;
+  margin-bottom: 50px;
+  position: fixed;
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 10px black;
+}
+
+header img {
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 0 10px;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a:visited, a:hover, a:active {
+  color:#f37021;
+}
+
+nav, ul {
+  list-style: none;
+}
+
+nav a {
+  color:#006734;  
+}
+
+.hero {
+  background-image: url(images/PontePB.png);
+  background-position: center center;
+  min-height: 100vh;
+  padding-top: 50px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:#006734;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 80%;
+  margin-bottom: 150px;
+}
+
+.hero h1 {
+  width: 80%;
+  font-size: 50px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.hero h3 {
+  width: 80%;
+  font-size: 25px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+.hero .btn {
+  background-color:#f37021;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 20px 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: large;
+  box-shadow: 1px 1px 10px black;
+}
+
+.know-the-farao {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.know-the-farao h3 {
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.know-the-farao p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.know-the-farao hr {
+  width: 200px;
+  height: 2px;
+  margin-bottom: 70px;
+  border: none;
+  background-color: black;
+}
+
+.know-the-farao .grid {
+  max-width: 85%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid img {
+  /* margin-right: 50px;
+  margin-bottom: 50px; */
+  height: 300px;
+  padding: 20px;
+  /* box-shadow: 1px 1px 10px black; */
+}
+
+.store {
+  background-color: #006734;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.store h3 {
+  font-size: 25px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
+
+.store p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: white;
+}
+
+.store hr {
+  width: 200px;
+  height: 2px;
+  margin-bottom: 70px;
+  border: none;
+  background-color: white;
+}
+
+.store .grid {
+  display: flex;
+}
+
+.store .grid li {
+  padding: 0 50px;
+  text-align: center;
+}
+
+.store .grid li i {
+  color: #f37021;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+.store .grid li h4 {
+  font-size: 25px;
+  color: #f37021;
+  margin-bottom: 30px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.newsletter h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.newsletter p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  text-align: center;
+  color: black;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+}
+
+.newsletter input {
+  width: 600px;
+  padding: 15px;
+  border-radius: 4px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.newsletter img {
+  border-radius: 25px;
+  height: 400px;
+  margin-right: 25px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item{
+  align-items: flex-start; /*alinhar items por cima*/
+}
+
+.newsletter button {
+  padding: 15px;
+  background-color: #f37021;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #006734;
+  padding: 50px 0;
+}
+
+footer h3 {
+  color: #f37021;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+footer ul li {
+padding: 50px;
+}
+
+footer ul li i {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* footer ul li:nth-child(1) {
+  order: 1;
+}
+
+footer ul li:nth-child(2) {
+  order: 2;
+}
+
+footer ul li:nth-child(3) {
+  order: 3;
+}
+
+footer ul li:nth-child(4) {
+  order: 4;
+} */
+
+@media screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  header img {
+    max-width: 500px;
+    width: 300px;
+  }
+
+  .hero img {
+    max-width: 80%;
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+  
+  .hero h3 {
+    font-size: 15px;
+  }
+
+  .hero .btn {
+    font-size: xx-small;
+    box-shadow: 1px 1px 10px black;
+  }
+
+  .know-the-farao {
+    padding: 30px 10px;
+  }
+
+  .know-the-farao .grid {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+  }
+
+  .know-the-farao img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+  }
+
+  .store {
+    padding: 30px 10px;
+  }
+
+  .store .grid {
+    flex-direction: column;
+  }
+
+  .store ul {
+    padding-left: 0rem;
+  }
+
+  .newsletter button {
+    margin-top: 20px;
+  }
+
+  .newsletter input {
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    align-content: center;
+  }
+  
+  .flex-item{
+    text-align: center;
+    width: 300px;
+    height: auto;
+  }
+
+  .inputBtn {
+    width: 300px;
+    font-size: large;
+  }
+
+  footer ul {
+    padding-left: 0rem;
+    margin-left: 35px;
+    max-width: 90%;
+  }
+
+  footer ul li {
+    padding-left: 0rem;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  footer h3 {
+    text-align: center;
+    max-width: 90%;
+  }
+
+  footer p {
+    text-align: center;
+    font-size: 15px;
+    max-width: 90%;
+  }
+  
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Braddock Centro Automotivo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#">
+      <img src="images/Braddock-Logo-POS.png" alt="Braddock Centro Automotivo">
+    </a>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">Sobre</a>
+      <a href="#store">Nossos serviços</a>
+      <a href="#newsletter">Orçamento</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="images/Orc-ZAP-Laranja.png" alt="Orçamentos por Whatsapp (11) 94212-9700">
+    <h1>Oficina especializada e credenciada com as melhores seguradoras!</h1>
+    <h3>"Venha conhecer nossa estrutura de primeira linha. Atendimento personalizado, orçamentos por Whatsaap e mão de obra qualificada.</h3>
+    <a href="#newsletter" class="btn">Solicite seu orçamento</a>
+  </section>
+
+  <section class="know-the-farao" id="about">
+    <h3>Por dentro da Braddock!</h3>
+    <p>Nossa fachada é ampla para você poder chegar e estacionar sem problemas. Já na chegada nossa ponto de atendimento conta com especialistas treinados para fazer orçamentos desde as avarias mais simples até às batidas mais sérias que precisem acionar sua compania de seguros, fazer troca de peças ou recuperação de peças avariadas.</p>
+    <hr>
+    <div class="grid">
+      <img class="large" src="images/Fachada-01.png" alt="Fachada Braddock">
+      <img class="small" src="images/Papelamento.png" alt="Preparação para pintura">
+      <img class="small" src="images/BMW-preta.png" alt="BMW Preta">
+      <img class="small" src="images/Mercedes-Prata.png" alt="AMG Preta">
+      <img class="small" src="images/Sala-Carla.png" alt="Sala de atendimento Carla">
+      <img class="small" src="images/Jaguar-Prata.png" alt="Jaguar Prata">
+    </div>
+  </section>
+
+  <section class="store" id="store">
+    <h3>Um centro automotivo completo!</h3>
+    <p>Implantada em uma área 100% planejada, a Braddock Centro Automotivo oferece uma grande variedade de serviços e produtos para cuidar do seu veículo com o cuidado e atenção que ele merece. Da mecânica ao acabamento final temos profissionais especializados e treinados para garantir a máxima qualidade nso serviços.
+    <br>
+    <br>
+    Atendimento personalizado e exclusivo torna sua experiiencia aqui na Braddock Centro Automotivo ainda mais incrível. Aqui você tem a possibilidade de solicitar orçamento por email ou por Whatsaap agilizando o processo e facilitando esse processo que poderia ser mais burocrático. Nosso pessoal de orçamentação é qualificado e sempre pronto para atender nossos clientes.
+    <br>
+    <br>
+    E para garantir ainda mais a sua tranquilidade somos cadastrados com algumas das mais importantes seguradoras de veículos, ou seja, pode trazer o seu carro para cá e fazer o que for preciso acionando seu seguro. Tudo de forma simples e rápida.
+    <br>
+    <br>
+    Venha nos conhecer ou solicite seu orçamento pelo formulário abaixo. Estamos te esperando!
+    </p>
+    <hr>
+    <ul class="grid">
+      <li>
+        <i class="bi bi-geo-alt-fill"></i>
+        <h4>Localização</h4>
+        <p>Localizada a 5 minutos do metrô São Paulo - Morumbi à Av. Eliseu de Almeida, 775, temos fácil acesso pelas avenidas Francisco Morato, Marginal do rio Pinheiros, avenida Rebouças. Atendemos vários bairros, Morumbi, Pinheiros, Vila Olímpia, Raposo Tavares, Brooklin e regiões próximas</p>
+      </li>
+      <li>
+        <i class="bi bi-droplet-half"></i>
+        <h4>Mecânica</h4>
+        <p>Oferecemos serviços de mecânica, auto-elétrica, troca de óleo, revisão preventiva e demais serviços de manutenção. Funilaira e pintura de alta performance, temos cabine de pintura, equipe especializada, mão de obra treinada e só utilizamos insumos de primeira linha</p>
+      </li>
+      <li>
+        <i class="bi bi-shield-fill-check"></i>
+        <h4>Seguros</h4>
+        <p>Somos credenciados com as principais companias de seguro e atendemos a todas as grandes seguradoras. Temos parceria com fornecedores de peças autorizados, só usamos peças originais. Consulte-nos sobre desconto na franquia!</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="newsletter" id="newsletter">
+    <h3>Solicite seu orçamento por email</h3>
+    <p>Envie um email pra mim com seus dados de cadastro, envie fotos das avarias que precisam de reparos e receba seu orçamento por email sem custo de orçamentação!
+    </p>
+  <div class="flex-container">
+    <img class="flex-item" src="images/carla-orcamento.jpg">
+    
+    <form id="myForm" action="mailto:contato@braddockautomotivo.com.br" method="post" enctype="text/plain">
+      <label>Nome:</label>
+      <input type="text" name="name" required>
+      <br>
+      <label>Email:</label>
+      <input type="email" name="email" required>
+      <br>
+      <label>Telefone:</label>
+      <input type="tel" name="phone" required>
+      <br>
+      <input type="submit" value="Solicitar Orçamento" class="inputBtn"             >
+      <!-- <button type="submit" value="Solicitar Planner" class="inputBtn" id="download" disabled>Solicitar Planner</button> -->
+    </form>
+  </section>
+
+  <footer id="contatos">
+    <h3>Aproveite pra seguir nossas redes sociais:</h3>
+    <p>Caso prefira, também fazemos orçamentos por Whatsapp!
+      <br>
+      E nos siga no Instagram para ficar por dentro das novidades e conhecer um pouco mais do nosso trabalho. Nos vemos por lá!</p>
+    <ul>
+      <li>
+        <a href="https://wa.me/5511942129700" target="_blank">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/braddockautomotivo/" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=100071539745093" target="_blank">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </li>
+    </ul>
+    <p>Todos os direitos reservados - Braddock Centro Automotivo® 2022</p>
+  </footer>
+</body>
+</html>
