@@ -1,7 +1,8 @@
 # Braddock
 Landing page para Braddock centro automotivo
 Acesse www.braddockautomotivo.com.br e veja o resultado!
-# 🚀🛰🌎🪐 Braddock Centro Automotivo 🛰🌎🪐🚀
+
+# 🚀🚗 Braddock Centro Automotivo 🚙🚀
 
 >>> "Site institucional desenvolvido para o Braddock Centro Automotivo. Utilizando HTML, CSS, JavaScript, React, entre outras tecnologias. Site estilo Onepage, com formulário de contato para captura de leads e divulgação dos principais serviços da empresa, bem como sua localização e canais de contato de mídias sociais."
 >>> Um projeto muito interessante e desafiador de construir. Durante a execução pude desenvolver mais minhas habilidades de gestão do tempo, inteligência emocional, pensamento crítico e controle de ansiedade. Lidar com clientes reais é sempre um desafio a mais, consegui aqui colocar em prática minhas soft skills para entender as necessidades da cliente e traduzi-las em uma landing page profissional para captura de leads.
