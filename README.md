@@ -2,7 +2,7 @@
 Landing page para Braddock centro automotivo
 Acesse www.braddockautomotivo.com.br e veja o resultado!
 
-![alt text](./projectFinish.png)
+![Braddock Centro Automotivo](./projectFinish.png)
 ---
 Acesse aqui > [Calculator]() ➗➕➖✖️🟰
 
