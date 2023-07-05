@@ -2,7 +2,7 @@
 Landing page para Braddock centro automotivo
 Acesse www.braddockautomotivo.com.br e veja o resultado!
 
-![Braddock Centro Automotivo](./images/braddock-land-oage.png)
+![Braddock Centro Automotivo](./images/braddock-land-page.png)
 
 
 # 🚀🚗 Braddock Centro Automotivo 🚙🚀
